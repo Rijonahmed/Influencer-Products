@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* -------
+font style
+------ */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lobster&family=Poppins:wght@400;500;700&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* main-style common style */
+.main-container{
+  margin-top: 3em;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+/* ------------------------
+header section style start
+--------------------------- */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 2em;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+header{
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-text{
+  width: 50%;
+
+}
+.header-text h1{
+  font-size: 50px;
+}
+.header-text p{
+  margin: 20px 0px;
+}
+.header-img{
+  width: 40%;
+}
+.btn{
+  padding: 10px 24px;
+  border-radius: 41px;
+  color: white;
+  background-color: #E02C6D;
+  border: 1px solid;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-img img{
+ width: 100%;
+         
+}
+/*------------------------
+ header section style end 
+  ---------------------------*/
+  /* company logo style start */
+  .company-logos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+    margin-top: 3em;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+  }
+  /* company logo style end */
+
+  /* popular collection start */
+  .collection-heading{
+    text-align: center;
+  }
+  .collection{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    background-color: grey;
+    grid-row-gap: 20px;
+    justify-content: space-evenly;
+  }
+  .collection-box{
+    width: 300px;
+    background-color: rgb(4, 0, 255);
+    padding: 15px;
+    border: 2px solid red;
+
+  }
+  .collection-img{
+    border-radius: 5px;
+    width: 100%;
+  }
+  .collection-text h2{
+    margin: 10px 0px;
+  }
+  .collection-text p i{
+    color:  #FB8200;
+
+  }
+
+  .coll-description{
+    padding: 5px 0px;
+  }
+ .coll-description a{
+   text-decoration: none;
+   color: #787885;
+
+ }
