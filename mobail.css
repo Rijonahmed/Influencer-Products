@@ -1,7 +1,5 @@
 @media only screen and (max-width: 576px) {
-  body {
-    /* background-color: lightblue; */
-  }
+  
   .main-container{
     margin-top: 3em;
     margin-right: 7%;
