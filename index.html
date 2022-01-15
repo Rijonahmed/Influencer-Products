@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- stylesheet link -->
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobail.css">
   <title>Influencer products</title>
   <!-- font-awesome link -->
   <script src="https://kit.fontawesome.com/165450901b.js" crossorigin="anonymous"></script>
@@ -31,9 +33,8 @@
         <div class="header-text">
           <h1>Start your Journey as
             Influencer</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laborum suscipit vero aspernatur fugit quis
-            quidem consequuntur hic possimus, exercitationem, ad voluptatum eveniet dolores modi enim nemo itaque
-            deleniti quia!</p>
+          <p>As you probably already know, you can become an Instagram influencer by working with brands you love. Once
+            you have thousands of followers under your belt, you can start reaching out to brands.</p>
           <button class="btn">Preebook now &nbsp;<i class="fas fa-arrow-right"></i></button>
         </div>
         <div class="header-img">
@@ -57,7 +58,7 @@
       <!-- popular collection start -->
 
       <h2 class="collection-heading">Popular Collection</h2>
-      <div class="collection-see-more">
+      <div class="top-collection">
         <section class="collection">
           <div class="collection-box">
             <div class="collection-img">
@@ -83,11 +84,11 @@
           </div>
           <div class="collection-box">
             <div class="collection-img">
-              <img src="images/tripod.png" alt="">
+              <img src="images/mic.png" alt="">
             </div>
             <div class="collection-text">
-              <h2>Flex Tripod</h2>
-              <h2>$50.84</h2>
+              <h2>microphone</h2>
+              <h2>$100.84</h2>
               <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -105,11 +106,11 @@
           </div>
           <div class="collection-box">
             <div class="collection-img">
-              <img src="images/tripod.png" alt="">
+              <img src="images/airpod.png" alt="">
             </div>
             <div class="collection-text">
-              <h2>Flex Tripod</h2>
-              <h2>$50.84</h2>
+              <h2>Airbuds</h2>
+              <h2>$25.84</h2>
               <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -127,11 +128,11 @@
           </div>
           <div class="collection-box">
             <div class="collection-img">
-              <img src="images/tripod.png" alt="">
+              <img src="images/drone.png" alt="">
             </div>
             <div class="collection-text">
-              <h2>Flex Tripod</h2>
-              <h2>$50.84</h2>
+              <h2>Drone</h2>
+              <h2>$900.84</h2>
               <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -149,11 +150,11 @@
           </div>
           <div class="collection-box">
             <div class="collection-img">
-              <img src="images/tripod.png" alt="">
+              <img src="images/camera.png" alt="">
             </div>
             <div class="collection-text">
-              <h2>Flex Tripod</h2>
-              <h2>$50.84</h2>
+              <h2>Vlogging Camera</h2>
+              <h2>$1900.80</h2>
               <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -171,11 +172,11 @@
           </div>
           <div class="collection-box">
             <div class="collection-img">
-              <img src="images/tripod.png" alt="">
+              <img src="images/lights.png" alt="">
             </div>
             <div class="collection-text">
-              <h2>Flex Tripod</h2>
-              <h2>$50.84</h2>
+              <h2>Light Setup</h2>
+              <h2>$1200.70</h2>
               <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -193,11 +194,11 @@
           </div>
           <div class="collection-box">
             <div class="collection-img">
-              <img src="images/tripod.png" alt="">
+              <img src="images/single-light.png" alt="">
             </div>
             <div class="collection-text">
-              <h2>Flex Tripod</h2>
-              <h2>$50.84</h2>
+              <h2>Green Screen</h2>
+              <h2>$10.84</h2>
               <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -215,11 +216,11 @@
           </div>
           <div class="collection-box">
             <div class="collection-img">
-              <img src="images/tripod.png" alt="">
+              <img src="images/action.png" alt="">
             </div>
             <div class="collection-text">
-              <h2>Flex Tripod</h2>
-              <h2>$50.84</h2>
+              <h2>Action Camera</h2>
+              <h2>$300.84</h2>
               <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -235,13 +236,13 @@
 
             </div>
           </div>
-          <div class="collection-box">
+          <div class="collection-box" id="last-display-non">
             <div class="collection-img">
-              <img src="images/tripod.png" alt="">
+              <img src="images/setup.png" alt="">
             </div>
             <div class="collection-text">
-              <h2>Flex Tripod</h2>
-              <h2>$50.84</h2>
+              <h2>Photoshoot Set</h2>
+              <h2>$200.94</h2>
               <p><i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -262,6 +263,22 @@
         <p class="btn-2">See More <i class="fas fa-arrow-right"></i></p>
 
       </div>
+
+      <!-- extra-section start -->
+      <section class="extra-section">
+        <div class="extra-sec-text">
+          <h1>Registration for <span style="color: #E02C6D;"> Influencer products</span></h1>
+        </div>
+
+        <div class="contact-us">
+          <input type="text" placeholder="Enter your Name">
+          <input type="email" name="email" id="" placeholder="Enter your Email">
+          <input type="number" name="numbar" id="" placeholder="+088">
+          <span><button type="submit" class="btn-3">Submit</button>
+            <button type="reset" class="btn-3">Reset</button></span>
+        </div>
+      </section>
+      <!-- extra-section end -->
 
 
 
